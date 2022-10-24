@@ -1,5 +1,5 @@
 import amino
-#rom amino import Client
+From time import sleep as ZZ
 from ujson import load as W
 for A in W(open("accounts.json")):
 	E,P,D=A["email"],A["password"],A["device"]
@@ -11,7 +11,7 @@ for A in W(open("accounts.json")):
 	print(f"Login To {E}")
 	try:
 		Ç.join_video_chat_as_viewer(comId=C,chatId=O)
-		print("Ok")
+		print("Ok");ZZ(3)
 	except Exception as F:
 		print(F)
 		pass
