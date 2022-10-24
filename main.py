@@ -1,5 +1,5 @@
 import amino
-From time import sleep as ZZ
+from time import sleep as ZZ
 from ujson import load as W
 for A in W(open("accounts.json")):
 	E,P,D=A["email"],A["password"],A["device"]
