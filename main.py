@@ -7,7 +7,7 @@ for A in W(open("accounts.json")):
 	Ç.login(E,P)
 	L=Ç.get_from_code("http://aminoapps.com/c/Dragon-ball-empire")
 	O="0029e51c-6490-480c-9205-b70e262a16d1"
-	C=3434136
+	C=64112096
 	print(f"Login To {E}")
 	try:
 		Ç.join_video_chat_as_viewer(comId=C,chatId=O)
