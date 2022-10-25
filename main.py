@@ -12,7 +12,7 @@ for A in W(open("accounts.json")):
 	try:
 		Ç.join_video_chat_as_viewer(comId=C,chatId=O)
 		print("Ok")
-		ZZ(5)
+		#ZZ(5)
 	except Exception as F:
 		print(F)
 		pass
